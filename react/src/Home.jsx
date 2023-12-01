@@ -140,7 +140,7 @@ const Home = ({ reg }) => {
         user();
         setHasVote(true);
         showVote(regNumber);
-        toast.success("🦄 Vote submitted successfully!", {
+        toast.success("🦄 Your vote was successfully submitted!", {
           position: "top-center",
           autoClose: 2999,
           hideProgressBar: false,
